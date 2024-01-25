@@ -68,4 +68,4 @@ Utilized Power BI to connect with SQL views, constructing a report tailored to t
 1. Reduction in late deliveries due to knowledge of being monitored
 2. Gradual increase in profits
 3. Less contractual cancellations
-4. Increase in process effiviencies
+4. Increase in process efficiencies
