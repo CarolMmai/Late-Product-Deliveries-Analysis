@@ -9,7 +9,7 @@
 
 <hr style="border: 2px solid gray;">
 
-### Project Ojective
+### Project Objective
 ---
 This project focuses on creating a robust data pipeline that operates daily, collecting information from both SQL databases and local files. The primary objective is to generate a Power BI report that scrutinizes transporter delivery data, specifically identifying instances of delayed product deliveries to different customers.
 
@@ -35,21 +35,21 @@ The dimension tables, modeled in a star schema format along with the fact table,
 ### Project Approach
 ---
 
-To achieve the project objective, the follwoing ETL and Power BI report development steps were followed....
+To achieve the project objective, the following ETL and Power BI report development steps were followed....
 
-1. Data Extraction:
+1.**1. Data Extraction:**
 Used Visual Basic Scripting and for loops to extract historical data from SAP efficiently, reducing report sizes and minimizing the risk of session timeouts by extracting data per transporter.
 
-2. Data Staging(temporary and permanent):
+2. **Data Staging(temporary and permanent):**
 The generated reports were stored temporarily, where a Python script combined them into a single dataframe and wrote the consolidated data to a SQL Server database table using the "replace" mode. Additionally, the script efficiently manages local machine resources by deleting SAP-generated files after reading them into the dataframe. It also logs process outputs to detect and handle failures effectively. The Python script executes a SQL stored procedure, planned for development in a later stage of the process
 
-3. Data Modeling
+3. **Data Modeling:**
 The consolidated data is incorporated into the SQL server table. Dimension tables, manually created from flat files, are imported and structured in a star schema format.
 
-4. Data Transformation, Stored Procedures and Views
+4. **Data Transformation, Stored Procedures and Views:**
 A stored procedure was created to copy SQL data from the original database table to another database, generating a duplicate table for transformations while preserving the integrity of the raw files. Subsequently, desired views were crafted from the transformed table. 
 
-5. Power BI report development
+5. **Power BI report development:**
 Utilized Power BI to connect with SQL views, constructing a report tailored to the user's specifications. The development encompassed additional transformations in Power Query, along with the creation of measures and calculated columns through DAX.
 
 (All the code used is available in the uploaded files section)
