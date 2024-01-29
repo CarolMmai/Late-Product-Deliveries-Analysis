@@ -59,7 +59,7 @@ Utilized Power BI to connect with SQL views, constructing a report tailored to t
 ---
 
 <p align="center">
-  <img src="https://github.com/CarolMmai/Late-Product-Deliveries-Analysis/blob/main/Power_BI_report_Late_product_delivery.gif" width="800" height="450" alt="Late Product Delivery Power BI Report">
+  <img src="https://github.com/CarolMmai/Late-Product-Deliveries-Analysis/blob/main/Late%20Product%20Deliveries%20Report.gif" width="800" height="450" alt="Late Product Deliveries Report">
 </p>
 
 
