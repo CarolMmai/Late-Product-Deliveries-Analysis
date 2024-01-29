@@ -27,7 +27,7 @@ This project demonstrates a synergy of Data Engineering and Analytics skills, de
 ### Dataset Information
 ---
 
-This dataset comprises a historical fact table from SQL containing data from SAP. It includes crucial details for a late product delivery report, such as dates and times related to various measurements in product delivery.
+This dataset comprises sytnthetic data simulating actual historical fact table from SQL containing data from SAP. It includes crucial details for a late product delivery report, such as dates and times related to various measurements in product delivery.
 
 The dimension tables, modeled in a star schema format along with the fact table, consist of a Power BI hard-coded date table, customer details with unique identifiers, and information about product source locations and product classifications.
 
