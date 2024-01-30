@@ -21,7 +21,6 @@ The implementation of this comprehensive project has resulted in the identificat
 
 ![Late-Product-Deliveries-Analysis-architecture](https://github.com/CarolMmai/Late-Product-Deliveries-Analysis/blob/main/Late_Product_Deliveries_Analysis_Architecture.JPG)
 
-This project demonstrates a synergy of Data Engineering and Analytics skills, delivering comprehensive value to the client through end-to-end capabilities.
 
 
 ### Dataset Information
@@ -59,7 +58,7 @@ Utilized Power BI to connect with SQL views, constructing a report tailored to t
 ---
 
 <p align="center">
-  <img src="https://github.com/CarolMmai/Late-Product-Deliveries-Analysis/blob/main/Late%20Product%20Deliveries%20Report.gif" width="800" height="450" alt="Late Product Deliveries Report">
+  <img src="https://github.com/CarolMmai/Late-Product-Deliveries-Analysis/blob/main/Late%20Product%20Delivery%20Report.gif" width="800" height="450" alt="Late Product Deliveries Report">
 </p>
 
 
