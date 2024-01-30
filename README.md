@@ -26,9 +26,9 @@ The implementation of this comprehensive project has resulted in the identificat
 ### Dataset Information
 ---
 
-This dataset comprises sytnthetic data simulating actual historical fact table from SQL containing data from SAP. It includes crucial details for a late product delivery report, such as dates and times related to various measurements in product delivery.
+This dataset is composed of synthetic data designed to simulate an actual historical fact table extracted from SQL, capturing information sourced from SAP. It encompasses essential details for a comprehensive late product delivery report, including dates and times associated with various measurements in the product delivery process.
 
-The dimension tables, modeled in a star schema format along with the fact table, consist of a Power BI hard-coded date table, customer details with unique identifiers, and information about product source locations and product classifications.
+The dimension tables, structured in a star schema format alongside the fact table, include a Power BI hard-coded date table, customer details with unique identifiers, and information pertaining to product source locations and product classifications.
 
 
 ### Project Approach
@@ -37,7 +37,7 @@ The dimension tables, modeled in a star schema format along with the fact table,
 To achieve the project objective, the following ETL and Power BI report development steps were followed....
 
 1.**1. Data Extraction:**
-Used Visual Basic Scripting and for loops to extract historical data from SAP efficiently, reducing report sizes and minimizing the risk of session timeouts by extracting data per transporter.
+Used Visual Basic Scripting and for loops to extract historical data from SAP efficiently, reducing report sizes and minimizing the risk of SAP session timeouts.
 
 2. **Data Staging(temporary and permanent):**
 The generated reports were stored temporarily, where a Python script combined them into a single dataframe and wrote the consolidated data to a SQL Server database table using the "replace" mode. Additionally, the script efficiently manages local machine resources by deleting SAP-generated files after reading them into the dataframe. It also logs process outputs to detect and handle failures effectively. The Python script executes a SQL stored procedure, planned for development in a later stage of the process
