@@ -36,7 +36,7 @@ The dimension tables, structured in a star schema format alongside the fact tabl
 
 To achieve the project objective, the following ETL and Power BI report development steps were followed....
 
-1.**1. Data Extraction:**
+1. **Data Extraction:**
 Used Visual Basic Scripting and for loops to extract historical data from SAP efficiently, reducing report sizes and minimizing the risk of SAP session timeouts.
 
 2. **Data Staging(temporary and permanent):**
